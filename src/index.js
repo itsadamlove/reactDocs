@@ -9,6 +9,10 @@ import Toggle from './Toggle'
 import Greeting from './Greeting'
 import LoginControl from './LoginControl.js'
 import NumberList from './NumberList.js'
+import NameForm from './NameForm.js'
+import EssayForm from './EssayForm.js'
+import FlavourForm from './FlavourForm.js'
+import Reservation from './Reservation.js'
 
 //const tick = () => {
   //const element = (
@@ -95,6 +99,18 @@ function App3() {
       <hr />
       <br/>
       <NumberList numbers={[1,2,3,4,5]}/>
+      <hr />
+      <br/>
+      <NameForm />
+      <hr />
+      <br/>
+      <EssayForm/>
+      <hr />
+      <br/>
+      <FlavourForm/>
+      <hr />
+      <br/>
+      <Reservation/>
     </div>
   )
 }
