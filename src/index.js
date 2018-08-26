@@ -13,6 +13,7 @@ import NameForm from './NameForm.js'
 import EssayForm from './EssayForm.js'
 import FlavourForm from './FlavourForm.js'
 import Reservation from './Reservation.js'
+import Calculator from './Calculator.js'
 
 //const tick = () => {
   //const element = (
@@ -111,6 +112,9 @@ function App3() {
       <hr />
       <br/>
       <Reservation/>
+      <hr />
+      <br/>
+      <Calculator/>
     </div>
   )
 }
