@@ -10,15 +10,11 @@ const toFahrenheit = (celsius) => {
 }
 
 const tryConvert = (temperature, convert) => {
-  console.log(`trying to convert ${temperature} through ${convert}`)
   const input = parseFloat(temperature)
-  console.log(`input is ${input}`)
   if (Number.isNaN(input)) {
-    console.log(`NANANANANA`)
     return ''
   }
   const output = convert(input)
-  console.log(`output is ${output}`)
   const rounded = Math.round(output * 1000) / 1000
   return rounded.toString()
 }
