@@ -8,6 +8,7 @@ import Clock from './Clock'
 import Toggle from './Toggle'
 import Greeting from './Greeting'
 import LoginControl from './LoginControl.js'
+import NumberList from './NumberList.js'
 
 //const tick = () => {
   //const element = (
@@ -91,6 +92,9 @@ function App3() {
       <hr />
       <br/>
       <LoginControl/>
+      <hr />
+      <br/>
+      <NumberList numbers={[1,2,3,4,5]}/>
     </div>
   )
 }
